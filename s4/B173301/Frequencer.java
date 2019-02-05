@@ -180,6 +180,10 @@ public class Frequencer implements FrequencerInterface{
 	    }
 	}
 
+	if(i > suffixArray.length - 1){
+		j = i;
+	}
+	
 	return j;
 	//return suffixArray.length; // This line should be modified.
     }
