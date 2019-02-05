@@ -65,7 +65,7 @@ public class TestCase {
 	    value = myObject.estimation();
 	    System.out.println(">00 "+value);
         
-        "TestCase.java : for InfomationEstimator"
+	    //"TestCase.java : for InfomationEstimator"
 	}
 	catch(Exception e) {
 	    System.out.println("Exception occurred: STOP");
