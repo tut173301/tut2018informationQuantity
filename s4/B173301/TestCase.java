@@ -29,7 +29,7 @@ public interface InformationEstimatorInterface{
 }                        
 */
 
-/* 旧ver
+/* old ver
 public class TestCase {
     public static void main(String[] args) {
 	try {
@@ -169,9 +169,7 @@ public class TestCase {
 	    System.out.println("Exception occurred in Frequencer Object: STOP");
 	}
 
-	try {if(i > suffixArray.length - 1){
-		j = i;
-	    }
+	try {
 	    InformationEstimatorInterface myObject;
 	    double value;
 	    System.out.println("checking s4.slow.InformationEstimator");
